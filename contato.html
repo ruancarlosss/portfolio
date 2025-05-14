@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">RUAN.DEV</div>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span><span></span><span></span>
+        </div>
+       <nav id="nav">
+            <ul>
+                <li><a href="index.html">SOBRE</a></li>
+                <li><a href="formacao.html">FORMAÇÃO</a></li>
+                <li><a href="projetos.html">PROJETOS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+       </nav> 
+    </header>
+
+    <main class="main-home">
+        <section class="contato">
+            <h2>Entre em Contato</h2>
+            <form id="forma-contato">
+
+                <label for="name">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="seu@gmail.com" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite uma mensagem..." required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+        </section>
+    </main>
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
